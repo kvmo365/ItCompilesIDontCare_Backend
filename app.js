@@ -1,6 +1,7 @@
+// app.js
+
 const express = require('express');
 const cors = require('cors');
-app.use(cors());
 const session = require('express-session');
 const bodyParser = require('body-parser');
 const path = require('path');
@@ -10,22 +11,25 @@ const productRoutes = require('./routes/products');
 const cartRoutes = require('./routes/cart');
 const checkoutRoutes = require('./routes/checkout');
 
-const app = express();
+const app = express();              // ← Create the Express app first
+app.use(cors());                    // ← Only now call app.use(cors())
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Simple session for cart and login state
-app.use(session({
-  secret: 'supersecretkey', // Change this for production
-  resave: false,
-  saveUninitialized: true,
-}));
+// Simple session setup (for cart/login state)
+app.use(
+  session({
+    secret: 'supersecretkey',       // Change in production
+    resave: false,
+    saveUninitialized: true,
+  })
+);
 
-// Serve frontend static files
+// Serve any static files from the "public" folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Routes
+// Mount your API routes under /api/…
 app.use('/api/auth', authRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/cart', cartRoutes);
@@ -33,5 +37,5 @@ app.use('/api/checkout', checkoutRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
