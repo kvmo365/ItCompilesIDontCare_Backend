@@ -1,4 +1,6 @@
 const express = require('express');
+const cors = require('cors');
+app.use(cors());
 const session = require('express-session');
 const bodyParser = require('body-parser');
 const path = require('path');
