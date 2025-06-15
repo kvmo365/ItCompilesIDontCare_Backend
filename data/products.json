@@ -408,56 +408,56 @@
   {
     "id": 59,
     "name": "Devil Fruit 1",
-    "image": "images/devil-fruit/fruit1.jpg",
+    "image": "images/devilfruit/devilfruit 1.png",
     "category": "Devil Fruit",
     "description": "A powerful Devil Fruit that bestows supernatural abilities."
   },
   {
     "id": 60,
     "name": "Devil Fruit 2",
-    "image": "images/devil-fruit/fruit2.jpg",
+    "image": "images/devilfruit/devilfruit 2.png",
     "category": "Devil Fruit",
     "description": "A powerful Devil Fruit that bestows supernatural abilities."
   },
   {
     "id": 61,
     "name": "Devil Fruit 3",
-    "image": "images/devil-fruit/fruit3.jpg",
+    "image": "images/devilfruit/devilfruit 3.png",
     "category": "Devil Fruit",
     "description": "A powerful Devil Fruit that bestows supernatural abilities."
   },
   {
     "id": 62,
     "name": "Devil Fruit 4",
-    "image": "images/devil-fruit/fruit4.jpg",
+    "image": "images/devilfruit/devilfruit 4.png",
     "category": "Devil Fruit",
     "description": "A powerful Devil Fruit that bestows supernatural abilities."
   },
   {
     "id": 63,
     "name": "Devil Fruit 5",
-    "image": "images/devil-fruit/fruit5.jpg",
+    "image": "images/devilfruit/devilfruit 5.png",
     "category": "Devil Fruit",
     "description": "A powerful Devil Fruit that bestows supernatural abilities."
   },
   {
     "id": 64,
     "name": "Devil Fruit 6",
-    "image": "images/devil-fruit/fruit6.jpg",
+    "image": "images/devilfruit/devilfruit 6.png",
     "category": "Devil Fruit",
     "description": "A powerful Devil Fruit that bestows supernatural abilities."
   },
   {
     "id": 65,
     "name": "Devil Fruit 7",
-    "image": "images/devil-fruit/fruit7.jpg",
+    "image": "images/devilfruit/devilfruit 7.png",
     "category": "Devil Fruit",
     "description": "A powerful Devil Fruit that bestows supernatural abilities."
   },
   {
     "id": 66,
     "name": "Devil Fruit 8",
-    "image": "images/devil-fruit/fruit8.jpg",
+    "image": "images/devilfruit/devilfruit 8.png",
     "category": "Devil Fruit",
     "description": "A powerful Devil Fruit that bestows supernatural abilities."
   },
@@ -646,14 +646,14 @@
   {
     "id": 93,
     "name": "Nichirin Blades 1",
-    "image": "images/nichirin/blade1.jpg",
+    "image": "images/nichirin swords/nichirin swords.jpg",
     "category": "Nichirin Blades",
     "description": "A Demon Slayer's Nichirin Blade with unique powers."
   },
   {
     "id": 94,
     "name": "Nichirin Blades 2",
-    "image": "images/nichirin/blade2.jpg",
+    "image": "images/nichirin swords/nichirin swords 1.jpg",
     "category": "Nichirin Blades",
     "description": "A Demon Slayer's Nichirin Blade with unique powers."
   },
@@ -723,21 +723,21 @@
   {
     "id": 104,
     "name": "Titan Serums 1",
-    "image": "images/titan-serum/serum1.jpg",
+    "image": "images/titain syrums/titain syrums 1.jpg",
     "category": "Titan Serums",
     "description": "A vial containing Titan transformation serum."
   },
   {
     "id": 105,
     "name": "Titan Serums 2",
-    "image": "images/titan-serum/serum2.jpg",
+    "image": "images/titain syrums/titain syrums 2.jpg",
     "category": "Titan Serums",
     "description": "A vial containing Titan transformation serum."
   },
   {
     "id": 106,
     "name": "Titan Serums 3",
-    "image": "images/titan-serum/serum3.jpg",
+    "image": "images/titain syrums/titain syrums 2.jpg",
     "category": "Titan Serums",
     "description": "A vial containing Titan transformation serum."
   },
